@@ -1,0 +1,14 @@
+Linha 2, coluna 17: Encontrado EOL (término da linha 2); esperado NUM_INT.
+Linha 3, coluna 16: Encontrado NUM_INT("2"); esperado SMB_COM(",") ou EOL.
+Linha 4, coluna 5: Encontrado DIR_WORD(".word"); esperado SMB_COL(":").
+Linha 5, coluna 13: Encontrado EOL (término da linha 5); esperado STRING.
+Linha 7, coluna 9: Encontrado REG("$t1"); esperado SMB_COM(",").
+Linha 8, coluna 11: Encontrado REG("$sp"); esperado SMB_OPA("(").
+Linha 9, coluna 14: Encontrado EOL (término da linha 9); esperado SMB_CPA(")").
+Linha 10, coluna 9: Encontrado SMB_OPA("("); esperado ID ou NUM_INT (endereço).
+Linha 11, coluna 7: Encontrado EOL (término da linha 11); esperado SMB_COL(":").
+Linha 12, coluna 9: Encontrado REG("$t0"); esperado EOL.
+Linha 13, coluna 5: Encontrado INS_NOP("nop"); esperado EOL.
+Linha 14, coluna 7: Encontrado EOL (término da linha 14); esperado ID.
+
+Total de erros sintáticos: 12

@@ -1,0 +1,14 @@
+.text
+    add $t0, $t1
+    li $t0, mensagem
+    add $t0, $t1, $t2, $t3
+    move $t0
+    addi $t0, 5, $t1
+    sll $t0, $t1, $t2
+    la $t0, 10
+    beq $t0, fim, $t1
+    j $ra
+    jr fim
+    mflo
+    div $t0, $t1, $t2
+    nop

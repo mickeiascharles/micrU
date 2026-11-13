@@ -1,0 +1,4 @@
+Linha 2, coluna 1: Encontrado INS_LI("li"); esperado DIR_DATA(".data") ou DIR_TEXT(".text").
+Linha 3, coluna 1: Encontrado INS_ADD("add"); esperado DIR_DATA(".data") ou DIR_TEXT(".text").
+
+Total de erros sintáticos: 2

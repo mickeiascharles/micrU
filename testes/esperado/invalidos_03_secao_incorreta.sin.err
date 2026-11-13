@@ -1,0 +1,6 @@
+Linha 3, coluna 1: Encontrado INS_LI("li"); esperado ID, diretiva de dados ou DIR_GLOBL(".globl") (instruções só são permitidas na seção .text).
+Linha 4, coluna 6: Encontrado INS_ADD("add"); esperado diretiva de dados ou EOL (instruções só são permitidas na seção .text).
+Linha 6, coluna 1: Encontrado DIR_WORD(".word"); esperado ID, instrução ou DIR_GLOBL(".globl") (diretivas de dados só são permitidas na seção .data).
+Linha 7, coluna 6: Encontrado DIR_ASCIIZ(".asciiz"); esperado instrução ou EOL (diretivas de dados só são permitidas na seção .data).
+
+Total de erros sintáticos: 4

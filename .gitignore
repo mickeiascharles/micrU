@@ -1,0 +1,5 @@
+build/
+micru
+micru.exe
+*.o
+.DS_Store

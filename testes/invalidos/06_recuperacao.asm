@@ -1,0 +1,16 @@
+.data
+a: .word 1
+b: .word 2,, 3
+c: .half 4
+.text
+main: li $t0, 1
+    add $t0, $t0
+    sub $t1, $t1, $t1
+    lw $t0, x($sp)
+    j main
+    beq $t0 $t1, main
+.data
+d: .byte 1
+    nop
+.text
+    syscall

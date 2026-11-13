@@ -1,0 +1,7 @@
+Linha 3, coluna 12: Encontrado SMB_COM(","); esperado NUM_INT.
+Linha 7, coluna 13: Encontrado EOL (término da linha 7); esperado SMB_COM(",").
+Linha 9, coluna 10: Encontrado SMB_OPA("("); esperado EOL.
+Linha 11, coluna 9: Encontrado REG("$t1"); esperado SMB_COM(",").
+Linha 14, coluna 1: Encontrado INS_NOP("nop"); esperado ID, diretiva de dados ou DIR_GLOBL(".globl") (instruções só são permitidas na seção .text).
+
+Total de erros sintáticos: 5

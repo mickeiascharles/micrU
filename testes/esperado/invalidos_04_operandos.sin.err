@@ -1,0 +1,14 @@
+Linha 2, coluna 13: Encontrado EOL (término da linha 2); esperado SMB_COM(",").
+Linha 3, coluna 9: Encontrado ID("mensagem"); esperado NUM_INT.
+Linha 4, coluna 18: Encontrado SMB_COM(","); esperado EOL.
+Linha 5, coluna 9: Encontrado EOL (término da linha 5); esperado SMB_COM(",").
+Linha 6, coluna 11: Encontrado NUM_INT("5"); esperado REG.
+Linha 7, coluna 15: Encontrado REG("$t2"); esperado NUM_INT.
+Linha 8, coluna 9: Encontrado NUM_INT("10"); esperado ID.
+Linha 9, coluna 10: Encontrado ID("fim"); esperado REG.
+Linha 10, coluna 3: Encontrado REG("$ra"); esperado ID.
+Linha 11, coluna 4: Encontrado ID("fim"); esperado REG.
+Linha 12, coluna 5: Encontrado EOL (término da linha 12); esperado REG.
+Linha 13, coluna 13: Encontrado SMB_COM(","); esperado EOL.
+
+Total de erros sintáticos: 12

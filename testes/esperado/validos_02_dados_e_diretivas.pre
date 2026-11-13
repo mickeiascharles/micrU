@@ -1,0 +1,27 @@
+
+.data
+.globl main
+numero: .word 10
+vetor: .word 10, 20, -30, 0xFF
+pequeno: .byte 65
+valor: .half 1000, 0x7FFF
+mensagem: .asciiz "Resultado: \"ok\"\n"
+texto: .ascii "ABC"
+
+buffer: .space 100
+.align 2
+isolado:
+.word 1, 2, 3
+
+.text
+.globl main
+main: la $a0, mensagem
+lw $t0, numero
+lw $t1, 4($sp)
+sw $t1, -8($fp)
+lb $t2, pequeno
+sb $t2, 0($a0)
+lh $t3, valor
+sh $t3, 0x10($gp)
+li $v0, 10
+syscall

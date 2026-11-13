@@ -1,0 +1,8 @@
+.data
+valor: .word 5
+    li $t0, 10
+rot: add $t0, $t1, $t2
+.text
+    .word 7
+lbl: .asciiz "x"
+    nop
